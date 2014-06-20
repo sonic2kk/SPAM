@@ -1,7 +1,7 @@
 SPAM - Simple Powerful Audio Manager
 ====================================
 
-SPAM was created to be a simple, yet powerful audio manager. I created it as part of a project I was working on, but I thought it would be useful to other people. SPAM is to be designed to be easy to use, lightweight and compact.
+SPAM was created to be a simple, yet powerful audio manager. I created it as part of a project I was working on, but I thought it would be useful to other people. SPAM is to be designed to be easy to use, lightweight and compact, weighing in at less than 5KB!.
 
 Documentation:
 <br />
