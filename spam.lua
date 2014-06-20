@@ -102,7 +102,7 @@ end
 function Spam:DeleteAll()
 	-- Deletes all sounds from SPAM
 	for i, v in ipairs(sounds) do
-		table.remove(sounds, v)
+		sounds[v] = nil
 	end
 
 	collectgarbage()
