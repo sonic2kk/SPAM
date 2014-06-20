@@ -3,8 +3,7 @@ SPAM - Simple Powerful Audio Manager
 
 SPAM was created to be a simple, yet powerful audio manager. I created it as part of a project I was working on, but I thought it would be useful to other people. SPAM is to be designed to be easy to use, lightweight and compact.
 
-
-
+```
 Spam:Load( name, pathToAudio, type )
 
 Loads an audio file into SPAM.
@@ -12,7 +11,7 @@ Loads an audio file into SPAM.
 name - A shorthand name used to access the song.
 pathToAudio - Path to the audio file.
 type - Type of audio clip. Can be either "static" or "stream". See http://www.love2d.org/wiki/SourceType
-
+```
 
 
 Spam:Play( name )
