@@ -80,7 +80,7 @@ Spam:SetVolume( name, vol )
 
 Sets the volume of an audio track. This file has to be loaded into SPAM, see Spam:Load(). Does not return anything.
 
-name - Name of the audio track
+name - Name of the audio track<br />
 vol - New volume you want to set to the audio track
 
 
