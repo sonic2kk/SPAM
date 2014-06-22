@@ -65,10 +65,28 @@ function Spam:Resume( name )
 	end
 end
 
+function Spam:ResumeAll()
+	-- Resuming audio tracks if they are paused
+	for i, v in ipairs(sounds) do
+		if sounds[v]:isPaused() then
+			sounds[v]:resume()
+		end
+	end
+end
+
 function Spam:Pause( name )
 	-- Pausing an audio track if it is playing
 	if sounds[name]:isPlaying() then
 		sounds[name]:pause()
+	end
+end
+
+function Spam:PauseAll()
+	-- Pausing all audio tracks if they are playing
+	for i, v in ipairs(sounds) do
+		if sounds[v]:isPlaying() then
+			sounds[v]:pause()
+		end
 	end
 end
 

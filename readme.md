@@ -107,12 +107,28 @@ name - Name of the audio track to resume
 <br />
 <br />
 ```
+Spam:ResumeAll()
+```
+
+Resumes all SPAM audio tracks.
+<br />
+<br />
+<br />
+```
 Spam:Pause( name )
 ```
 
 Pauses a given audio track. This audio track has to be loaded into SPAM, see Spam:Load(). Will only pause if the track is playing, otherwise nothing happens to the given track.
 
 name - Name of the audio track to pause
+<br />
+<br />
+<br />
+```
+Spam:PauseAll()
+```
+
+Pauses all SPAM audio tracks.
 <br />
 <br />
 <br />
