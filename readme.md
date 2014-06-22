@@ -180,7 +180,7 @@ Deletes all audio files inside of SPAM.
 <br />
 <br />
 
-Spam is just a thin wrapper over a small part of the love.audio module. Anything advanced that you need from love.audio you can still use by calling ``` Spam:Get( name):LoveDotAudioMethodHere( params ) ```, if you need some more advanced features. Hopefully, for basic audio playing and configuration, SPAM will meet your needs.
+Spam is just a thin wrapper over a small part of the love.audio module. Anything advanced that you need from love.audio you can still use by calling ``` Spam:Get( name ):LoveDotAudioMethodHere( params ) ```, if you need some more advanced features. Hopefully, for basic audio playing and configuration, SPAM will meet your needs.
 
 <br />
 <br />
