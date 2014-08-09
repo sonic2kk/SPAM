@@ -177,3 +177,46 @@ sname - Name of the source
 <br/>
 <br/>
 <br/>
+```lua
+spam_issourcelooping(mname, sname)
+```
+Checks if a given source is set to loop
+
+mname - Name of the manager
+
+sname - Name of the source
+<br/>
+<br/>
+<br/>
+```lua
+spam_isstatic(mname, sname)
+```
+Checks if a source is static
+
+mname - Name of the manager
+
+sname - Name of the source
+<br/>
+<br/>
+<br/>
+```lua
+spam_getposition(mname, sname, unit)
+```
+Checks the position of a given SPAM source
+
+mname - Name of the manager
+
+sname - Name of the source
+
+unit - Unit to return the position in
+<br/>
+<br/>
+<br/>
+```lua
+spam_ispaused(mname, sname)
+```
+Checks if a given SPAM audio source is paused
+
+mname - Name of the manager
+
+sname - Name of the source
