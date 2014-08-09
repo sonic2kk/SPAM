@@ -1,5 +1,7 @@
 spam = {}
 
+spam.version = 2.0
+
 function spam_newmanager(name)
 	local i = {
 		name = name,
@@ -127,4 +129,8 @@ function spam_ispaused(mname, sname)
 			return v.audio[sname]:isPaused()
 		end
 	end
+end
+
+function spam_getversion()
+	return spam.version
 end
