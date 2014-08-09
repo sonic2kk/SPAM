@@ -224,3 +224,10 @@ Checks if a given SPAM audio source is paused
 mname - Name of the manager
 
 sname - Name of the source
+<br/>
+<br/>
+<br/>
+```lua
+spam_getversion()
+```
+Gets the current version of SPAM
