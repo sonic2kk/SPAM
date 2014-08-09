@@ -53,8 +53,11 @@ spam_newsource(mname, sname, path, type)
 Creates a new SPAM audio source
 
 mname - Name of the manager
+
 sname - Name of the source
+
 path - Path to the source
+
 type - Type of the source
 <br/>
 <br/>
@@ -64,6 +67,5 @@ spam_removesource(mname, sname)
 Removes a SPAM audio source
 
 mname - Name of the manager
+
 sname - Name of the source
-<br />
-<br />
