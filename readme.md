@@ -37,6 +37,10 @@ function love.draw()
 end
 ```
 
+# License
+
+License can be found at "license.txt"
+
 # Documentation
 
 ```lua
