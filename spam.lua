@@ -1,12 +1,12 @@
 spam = {}
 
 function spam_newmanager(name)
-	i = {
+	local i = {
 		name = name,
 		audio = {},
 	}
 
-	table.insert(spam, s)
+	table.insert(spam, i)
 end
 
 function spam_newsource(mname, sname, path, type)
