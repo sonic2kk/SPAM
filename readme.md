@@ -71,3 +71,109 @@ Removes a SPAM audio source
 mname - Name of the manager
 
 sname - Name of the source
+<br/>
+<br/>
+<br/>
+```lua
+spam_setloopsource(mname, sname, loop)
+```
+Whether or not to loop a SPAM audio source
+
+mname - Name of the manager
+
+sname - Name of the source
+
+loop - Whether or not to loop the audio source
+<br/>
+<br/>
+<br/>
+```lua
+spam_setvolume(mname, sname, vol)
+```
+Sets the volume of a SPAM audio source
+
+mname - Name of the manager
+
+sname - Name of the source
+
+vol - Volume to set of the audio source
+<br/>
+<br/>
+<br/>
+```lua
+spam_getvolume(mname, sname)
+```
+Gets the volume of a SPAM audio source
+
+mname - Name of the manager
+
+sname - Name of the source
+<br/>
+<br/>
+<br/>
+```lua
+spam_stopaudiosource(mname, sname)
+```
+Stops a SPAM audio source
+
+mname - Name of the manager
+
+sname - Name of the source
+<br/>
+<br/>
+<br/>
+```lua
+spam_playsource(mname, sname)
+```
+Plays a SPAM audio source
+
+mname - Name of the manager
+
+sname - Name of the source
+<br/>
+<br/>
+<br/>
+```lua
+spam_pausesource(mname, sname)
+```
+Pauses a SPAM audio source
+
+mname - Name of the manager
+
+sname - Name of the source
+<br/>
+<br/>
+<br/>
+```lua
+spam_getsource(mname, sname)
+```
+Gets a SPAM audio source
+
+mname - Name of the manager
+
+sname - Name of the source
+<br/>
+<br/>
+<br/>
+```lua
+spam_resumesource(mname, sname)
+```
+Resumes a SPAM audio source
+
+mname - Name of the manager
+
+sname - Name of the source
+<br/>
+<br/>
+<br/>
+```lua
+spam_issourceplaying(mname, sname)
+```
+Checks if a given source is currently playing
+
+mname - Name of the manager
+
+sname - Name of the source
+<br/>
+<br/>
+<br/>
