@@ -47,6 +47,7 @@ Creates a new SPAM audio manager
 mname - Name of the manager
 <br/>
 <br/>
+<br/>
 ```lua
 spam_newsource(mname, sname, path, type)
 ```
@@ -59,6 +60,7 @@ sname - Name of the source
 path - Path to the source
 
 type - Type of the source
+<br/>
 <br/>
 <br/>
 ```lua
